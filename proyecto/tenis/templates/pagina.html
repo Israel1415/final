@@ -1,0 +1,133 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .product {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            padding: 15px;
+            width: 300px;
+            text-align: center;
+        }
+
+        .product img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+
+        .product h3 {
+            color: #333;
+        }
+
+        .product p {
+            color: #666;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+    <title>Sneakers</title>
+</head>
+<body>
+
+<header>
+    <h1>Sneakers</h1>
+</header>
+
+<section>
+    <div class="product">
+        <img src="{% static 'images/img1.webp' %}" alt="Tenis Deportivos 1">
+        <h3>Tenis Deportivos Modelo 1</h3>
+        <p>Precio: $99.99</p>
+        <button>Añadir al carrito</button>
+    </div>
+
+    <div class="product">
+        <img src="{% static 'images/img2.webp' %}" alt="Tenis Deportivos 2">
+        <h3>Tenis Deportivos Modelo 2</h3>
+        <p>Precio: $79.99</p>
+        <button>Añadir al carrito</button>
+    </div>
+
+    <div class="product">
+        <img src="{% static 'images/img3.webp' %}" alt="Tenis Deportivos 3">
+        <h3>Tenis Deportivos Modelo 3</h3>
+        <p>Precio: $119.99</p>
+        <button>Añadir al carrito</button>
+    </div>
+
+    <!-- Agregar más cuadros de venta -->
+    <div class="product">
+        <img src="{% static 'images/img4.webp' %}" alt="Tenis Deportivos 4">
+        <h3>Tenis Deportivos Modelo 4</h3>
+        <p>Precio: $89.99</p>
+        <button>Añadir al carrito</button>
+    </div>
+
+    <div class="product">
+        <img src="{% static 'images/img5.webp' %}" alt="Tenis Deportivos 5">
+        <h3>Tenis Deportivos Modelo 5</h3>
+        <p>Precio: $109.99</p>
+        <button>Añadir al carrito</button>
+    </div>
+
+    <div class="product">
+        <img src="{% static 'images/img6.webp' %}" alt="Tenis Deportivos 6">
+        <h3>Tenis Deportivos Modelo 6</h3>
+        <p>Precio: $79.99</p>
+        <button>Añadir al carrito</button>
+    </div>
+
+    <div class="product">
+        <img src="{% static 'images/img7.webp' %}" alt="Tenis Deportivos 7">
+        <h3>Tenis Deportivos Modelo 7</h3>
+        <p>Precio: $99.99</p>
+        <button>Añadir al carrito</button>
+    </div>
+
+    <div class="product">
+        <img src="{% static 'images/img8.webp' %}" alt="Tenis Deportivos 8">
+        <h3>Tenis Deportivos Modelo 8</h3>
+        <p>Precio: $119.99</p>
+        <button>Añadir al carrito</button>
+    </div>
+
+    <div class="product">
+        <img src="{% static 'images/img9.webp' %}" alt="Tenis Deportivos 9">
+        <h3>Tenis Deportivos Modelo 9
