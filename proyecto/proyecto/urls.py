@@ -19,4 +19,4 @@ from django.urls import path
 from tenis.views import *
 
 
-urlpatterns = [path("", login), path("admin/", admin.site.urls), path("landing/", landing)]
+urlpatterns = [path("", loginpage), path("admin/", admin.site.urls), path("landing/", landing)]
